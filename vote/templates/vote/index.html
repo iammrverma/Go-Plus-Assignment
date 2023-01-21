@@ -15,21 +15,17 @@
     <div class="container">
         <h2>Go Plus</h2>
         <h3>This site is specificaly build to complete Go Plus's assignment by Raj Verma</h3>
-
         <div class="voting">
             <button id="likebtn">
                 <i class="fa fa-thumbs-up"></i>
             </button>
-            <input type="number" id="likecount" value="0" name="">
+            <input type="number" id="likecount" value="{{likes}}" name="">
 
             <button id="dislikebtn">
                 <i class="fa fa-thumbs-down"></i>
             </button>
-            <input type="number" id="dislikecount" value="0" name="">
-
-            <!-- <a href="#" id="like" class="btn btn-primary">Go somewhere</a>
-            <a href="#" id="dislike" class="btn btn-primary">Go somewhere</a> -->
-
+            <input type="number" id="dislikecount" value="{{dislikes}}" name="">
+           
         </div>
     </div>
 
