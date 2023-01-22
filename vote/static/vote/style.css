@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     outline: none;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #000;
 }
-.container{
+
+.container {
     border: 3px solid #303030;
     padding: 20px;
     width: 350px;
@@ -20,23 +21,27 @@ body{
     border-radius: 4px;
     position: relative;
 }
-h2{
+
+h2 {
     color: #fff;
     padding: 20px 0;
     font-size: 30px;
 }
-h3{
+
+h3 {
     color: #fff;
     padding: 20px 0;
 }
-img{
+
+img {
     position: relative;
     height: 100px;
     width: 100px;
     padding-bottom: 10px;
 
 }
-.voting{
+
+.voting {
     position: relative;
     border: 3px solid #303030;
     border-radius: 4px;
@@ -44,7 +49,8 @@ img{
     display: flex;
     justify-content: center;
 }
-input{
+
+input {
     width: 50px;
     border: none;
     background: none;
@@ -53,7 +59,8 @@ input{
     margin: 0 10px;
     pointer-events: none;
 }
-button{
+
+button {
     color: #fff;
     background: none;
     border: none;
@@ -63,7 +70,40 @@ button{
     margin-left: 20px;
     cursor: pointer;
 }
-button :active{
+
+button :active {
     color: #004eff;
     transform: scale(1.2);
+}
+
+.my-paragraph {
+    white-space: nowrap;
+    /* Keeps the text on one line */
+    overflow: hidden;
+    /* Hides the text that is outside the container */
+    width: 100%;
+    /* Makes the container the full width of the parent element */
+    margin: 0;
+    /* Removes the default margin */
+    letter-spacing: 2px;
+    /* Adds space between each letter */
+    font-size: 20px;
+    /* Sets the font size */
+    font-family: Arial, sans-serif;
+    /* Sets the font family */
+    animation: type 0.5s steps(40, end);
+    /* Adds an animation named "type" that takes 0.5 seconds and steps through 40 letters at a time */
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    /* Start with width of 0 */
+    100% {
+        width: 100%;
+    }
+
+    /* Finish with width of 100% */
 }
