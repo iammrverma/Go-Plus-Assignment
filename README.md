@@ -7,10 +7,10 @@ This is a django webapp created for Go Plus Assignment with the following featur
 ## Getting Started
 - Latest version of Django 4.1.5 is used in the making of this webapp
 - Copy the URL of this repository, go to desired location in your computer, open git bash there, run command :
-  git clone https://github.com/iammrverma/Go-Plus-Assignment.git <name you want to give>
+  git clone https://github.com/iammrverma/Go-Plus-Assignment.git project_name
 
 ## Usage
-cd <name you given before>
+cd project_name
 python manage.py runserver
 visit the URL that appears ie. 127.0.0.1:8000
 
